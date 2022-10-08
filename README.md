@@ -13,6 +13,10 @@ ddev wp core download
 # Finish installation in browser:
 ddev launch
 
+# Install roots/acorn plugin (required)
+# replace with latest link (https://github.com/roots/acorn/releases)
+ddev wp plugin install https://github.com/roots/acorn/releases/download/v2.1.2/acorn-v2.1.2-php-8.0.zip --activate
+
 # Jump into DDEV container to work in the sub-dir:
 ddev ssh
 cd wp-content/themes/my-sage-theme/
