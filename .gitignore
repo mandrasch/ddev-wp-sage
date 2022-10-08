@@ -1,0 +1,34 @@
+# Ignore all ...
+/*
+
+# ... but track specific files / folders: 
+
+# General files
+!.gitignore
+!/README.md
+!/LICENSE
+
+# DDEV config and provider script
+!/.ddev
+/.ddev/*
+!/.ddev/config.yaml
+!/.ddev/providers
+/.ddev/providers/*
+!/.ddev/providers/ssh.yaml
+!/.ddev/docker-compose.browsersync.yaml
+
+# Child theme:
+!/wp-content
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/my-sage-theme
+/wp-content/themes/my-sage-theme/node_modules
+
+# Acorn plugin
+!/wp-content/mu-plugins
+/wp-content/mu-plugins/*
+!/wp-content/mu-plugins/acorn
+
+# For more info about this gitignore-pattern, see e.g.:
+# https://stackoverflow.com/a/29012085/809939)
